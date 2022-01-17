@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.grid-container{
+    font-family: sans-serif; border-radius: 4px; background-color: black;
+}
+
+body {
+    background-image: url("https://static.sushipoint.nl/products/6b61c287-e321-49ce-b3bf-fc7e28d1b71c-20.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+th, td {
+    outline: solid 1px black;
+}
